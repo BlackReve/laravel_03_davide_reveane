@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class BooksController extends Controller
+class BookController extends Controller
 {
     public $books = [
             ['id' => '1', 'title' => 'Il piccolo principe', 'author' => 'Antonie de Sant-Exupery', 'img' => '/media/poster/IlPiccoloPrincipe.jpg', 'genre' => 'Romanzo'],
